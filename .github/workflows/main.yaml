@@ -64,6 +64,5 @@ jobs:
         - uses: azure/k8s-deploy@v1
           with:
             manifests: |
-              ${{ github.workspace }}/manifest/deployment1.yaml
-              ${{ github.workspace }}/manifest/deployment2.yaml
+              ${{ github.workspace }}/manifest/k8sdeployment.yaml
             namespace: default
