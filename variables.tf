@@ -1,11 +1,11 @@
 variable "location" {
-    description = "Location of Azure Resources"
+  description = "Location of Azure Resources"
 }
 
 variable "locationShort" {
-    description = "Short location code of Azure Resources"
+  description = "Short location code of Azure Resources"
 }
 
 variable "stage" {
-    description = "Stage name of user"
+  description = "Stage name of user"
 }
